@@ -62,6 +62,12 @@
 
 (global-set-key (kbd "C-c C-c") 'comment-or-uncomment-region-or-line)
 
+; mac4lyfe
+(global-set-key [(meta s)] 'save-buffer)
+(global-set-key [(meta c)] 'clipboard-kill-ring-save)
+(global-set-key [(meta v)] 'clipboard-yank)
+
+
 ;; turn on line-number mode
 (line-number-mode 1)
 
